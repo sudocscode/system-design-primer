@@ -270,7 +270,7 @@ $ curl https://social.com/api/v1/friend_search?person_id=1234
 * [一致性模式](https://github.com/donnemartin/system-design-primer#consistency-patterns)
 * [可用性模式](https://github.com/donnemartin/system-design-primer#availability-patterns)
 
-解决 **平均** 每秒 400 次请求的限制（峰值），人员数据可以存在例如 Redis 或 Memcached 这样的 **内存** 中以减少响应次数和下游流量通信服务。这尤其在用户执行多次连续查询和查询哪些广泛连接的人时十分有用。从内存中读取 1MB 数据大约要 250 微秒，从 SSD 中读取同样大小的数据时间要长 4 倍，从硬盘要长 80 倍。<sup><a href=https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know>1</a></sup>
+解决 **平均** 每秒 400 次请求的限制（峰值），人员数据可以存在例如 Redis 或 Memcached 这样的 **内存** 中以减少响应次数和下游流量通信服务。这尤其在用户执行多次连续查询和查询哪些广泛连接的人时十分有用。从内存中读取 1MB 数据大约要 250 微秒，从 SSD 中读取同样大小的数据时间要长 4 倍，从硬盘要长 80 倍。<sup><a href="https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know">1</a></sup>
 
 以下是进一步优化方案：
 

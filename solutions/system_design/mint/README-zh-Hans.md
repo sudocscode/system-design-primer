@@ -110,7 +110,7 @@ PRIMARY KEY(id)
 FOREIGN KEY(user_id) REFERENCES users(id)
 ```
 
-我们将在`id`，`user_id`和`created_at`等字段上创建一个[索引](https://github.com/donnemartin/system-design-primer#use-good-indices)以加速查找（对数时间而不是扫描整个表）并保持数据在内存中。从内存中顺序读取 1 MB数据花费大约250毫秒，而从SSD读取是其4倍，从磁盘读取是其80倍。<sup><a href=https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know>1</a></sup>
+我们将在`id`，`user_id`和`created_at`等字段上创建一个[索引](https://github.com/donnemartin/system-design-primer#use-good-indices)以加速查找（对数时间而不是扫描整个表）并保持数据在内存中。从内存中顺序读取 1 MB数据花费大约250毫秒，而从SSD读取是其4倍，从磁盘读取是其80倍。<sup><a href="https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know">1</a></sup>
 
 我们将使用公开的[**REST API**](https://github.com/donnemartin/system-design-primer#representational-state-transfer-rest):
 

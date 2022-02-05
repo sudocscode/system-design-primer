@@ -66,7 +66,7 @@
 
 ### 用例：用户发送了一次请求，命中了缓存
 
-常用的查询可以由例如 Redis 或者 Memcached 之类的**内存缓存**提供支持，以减少数据读取延迟，并且避免**反向索引服务**以及**文档服务**的过载。从内存读取 1 MB 连续数据大约要花 250 微秒，而从 SSD 读取同样大小的数据要花费 4 倍的时间，从机械硬盘读取需要花费 80 倍以上的时间。<sup><a href=https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md#每个程序员都应该知道的延迟数>1</a></sup>
+常用的查询可以由例如 Redis 或者 Memcached 之类的**内存缓存**提供支持，以减少数据读取延迟，并且避免**反向索引服务**以及**文档服务**的过载。从内存读取 1 MB 连续数据大约要花 250 微秒，而从 SSD 读取同样大小的数据要花费 4 倍的时间，从机械硬盘读取需要花费 80 倍以上的时间。<sup><a href="https://github.com/donnemartin/system-design-primer/blob/master/README-zh-Hans.md#每个程序员都应该知道的延迟数">1</a></sup>
 
 由于缓存容量有限，我们将使用 LRU（近期最少使用算法）来控制缓存的过期。
 

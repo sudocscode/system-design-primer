@@ -237,7 +237,7 @@
         * 首先, 尝试配置 **MySQL 数据库** 缓存以查看是否足以在实现 **内存缓存** 之前缓解瓶颈
     * 来自 **Web 服务器** 的会话数据
         * **Web 服务器** 变成无状态的, 允许 **自动伸缩**
-    * 从内存中读取 1 MB 内存需要大约 250 微秒，而从SSD中读取时间要长 4 倍，从磁盘读取的时间要长 80 倍。<sup><a href=https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know>1</a></sup>
+    * 从内存中读取 1 MB 内存需要大约 250 微秒，而从SSD中读取时间要长 4 倍，从磁盘读取的时间要长 80 倍。<sup><a href="https://github.com/donnemartin/system-design-primer#latency-numbers-every-programmer-should-know">1</a></sup>
 * 添加 [**MySQL 读取副本**](https://github.com/donnemartin/system-design-primer#master-slave-replication) 来减少写主线程的负载
 * 添加更多 **Web 服务器** and **应用服务器** 来提高响应
 
