@@ -5,7 +5,7 @@
 # The System Design Primer
 
 <p align="center">
-  <img src="images/jj3A5N8.png">
+  <img src="/images/jj3A5N8.png"/>
   <br/>
 </p>
 
@@ -46,7 +46,7 @@ Additional topics for interview prep:
 ## Anki flashcards
 
 <p align="center">
-  <img src="images/zdCAkB3.png">
+  <img src="images/zdCAkB3.png"/>
   <br/>
 </p>
 
@@ -63,7 +63,7 @@ Great for use while on-the-go.
 Looking for resources to help you prep for the [**Coding Interview**](https://github.com/donnemartin/interactive-coding-challenges)?
 
 <p align="center">
-  <img src="images/b4YtAEN.png">
+  <img src="images/b4YtAEN.png"/>
   <br/>
 </p>
 
@@ -93,7 +93,7 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
 > Each section contains links to more in-depth resources.
 
 <p align="center">
-  <img src="images/jrUBAF7.png">
+  <img src="images/jrUBAF7.png"/>
   <br/>
 </p>
 
@@ -411,7 +411,8 @@ Then we'll dive into more specific topics such as DNS, CDNs, and load balancers.
 
 ## Performance vs scalability
 
-A service is **scalable** if it results in increased **performance** in a manner proportional to resources added. Generally, increasing performance means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.<sup><a href=http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html>1</a></sup>
+A service is **scalable** if it results in increased **performance** in a manner proportional to resources added. Generally, increasing performance means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.
+ <sup><a href="http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html">1</a></sup>
 
 Another way to look at performance vs scalability:
 
@@ -440,9 +441,9 @@ Generally, you should aim for **maximal throughput** with **acceptable latency**
 ### CAP theorem
 
 <p align="center">
-  <img src="images/bgLMI2u.png">
+  <img src="images/bgLMI2u.png"/>
   <br/>
-  <i><a href=http://robertgreiner.com/2014/08/cap-theorem-revisited>Source: CAP theorem revisited</a></i>
+  <i><a href="http://robertgreiner.com/2014/08/cap-theorem-revisited">Source: CAP theorem revisited</a></i>
 </p>
 
 In a distributed computer system, you can only support two of the following guarantees:
@@ -451,7 +452,7 @@ In a distributed computer system, you can only support two of the following guar
 * **Availability** - Every request receives a response, without guarantee that it contains the most recent version of the information
 * **Partition Tolerance** - The system continues to operate despite arbitrary partitioning due to network failures
 
-*Networks aren't reliable, so you'll need to support partition tolerance.  You'll need to make a software tradeoff between consistency and availability.*
+*Networks arent reliable, so youll need to support partition tolerance.  You'll need to make a software tradeoff between consistency and availability.*
 
 #### CP - consistency and partition tolerance
 
@@ -581,9 +582,9 @@ If both `Foo` and `Bar` each had 99.9% availability, their total availability in
 ## Domain name system
 
 <p align="center">
-  <img src="images/IOyLj4i.jpg">
+  <img src="images/IOyLj4i.jpg"/>
   <br/>
-  <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>Source: DNS security presentation</a></i>
+  <i><a href="http://www.slideshare.net/srikrupa5/dns-security-presentation-issa">Source: DNS security presentation</a></i>
 </p>
 
 A Domain Name System (DNS) translates a domain name such as www.example.com to an IP address.
@@ -619,9 +620,9 @@ Services such as [CloudFlare](https://www.cloudflare.com/dns/) and [Route 53](ht
 ## Content delivery network
 
 <p align="center">
-  <img src="images/h9TAuGI.jpg">
+  <img src="images/h9TAuGI.jpg"/>
   <br/>
-  <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source: Why use a CDN</a></i>
+  <i><a href="https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/">Source: Why use a CDN</a></i>
 </p>
 
 A content delivery network (CDN) is a globally distributed network of proxy servers, serving content from locations closer to the user.  Generally, static files such as HTML/CSS/JS, photos, and videos are served from CDN, although some CDNs such as Amazon's CloudFront support dynamic content.  The site's DNS resolution will tell clients which server to contact.
@@ -660,9 +661,9 @@ Sites with heavy traffic work well with pull CDNs, as traffic is spread out more
 ## Load balancer
 
 <p align="center">
-  <img src="images/h81n9iK.png">
+  <img src="images/h81n9iK.png"/>
   <br/>
-  <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source: Scalable system design patterns</a></i>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Source: Scalable system design patterns</a></i>
 </p>
 
 Load balancers distribute incoming client requests to computing resources such as application servers and databases.  In each case, the load balancer returns the response from the computing resource to the appropriate client.  Load balancers are effective at:
@@ -730,9 +731,9 @@ Load balancers can also help with horizontal scaling, improving performance and 
 ## Reverse proxy (web server)
 
 <p align="center">
-  <img src="images/n41Azff.png">
+  <img src="images/n41Azff.png"/>
   <br/>
-  <i><a href=https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg>Source: Wikipedia</a></i>
+  <i><a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg">Source: Wikipedia</a></i>
   <br/>
 </p>
 
@@ -773,9 +774,9 @@ Additional benefits include:
 ## Application layer
 
 <p align="center">
-  <img src="images/yB5SYwm.png">
+  <img src="images/yB5SYwm.png"/>
   <br/>
-  <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source: Intro to architecting systems for scale</a></i>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">Source: Intro to architecting systems for scale</a></i>
 </p>
 
 Separating out the web layer from the application layer (also known as platform layer) allows you to scale and configure both layers independently.  Adding a new API results in adding application servers without necessarily adding additional web servers.  The **single responsibility principle** advocates for small and autonomous services that work together.  Small teams with small services can plan more aggressively for rapid growth.
@@ -784,7 +785,7 @@ Workers in the application layer also help enable [asynchronism](#asynchronism).
 
 ### Microservices
 
-Related to this discussion are [microservices](https://en.wikipedia.org/wiki/Microservices), which can be described as a suite of independently deployable, small, modular services.  Each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal. <sup><a href=https://smartbear.com/learn/api-design/what-are-microservices>1</a></sup>
+Related to this discussion are [microservices](https://en.wikipedia.org/wiki/Microservices), which can be described as a suite of independently deployable, small, modular services.  Each service runs a unique process and communicates through a well-defined, lightweight mechanism to serve a business goal. <sup><a href="https://smartbear.com/learn/api-design/what-are-microservices">1</a></sup>
 
 Pinterest, for example, could have the following microservices: user profile, follower, feed, search, photo upload, etc.
 
@@ -808,9 +809,9 @@ Systems such as [Consul](https://www.consul.io/docs/index.html), [Etcd](https://
 ## Database
 
 <p align="center">
-  <img src="images/Xkm5CXz.png">
+  <img src="images/Xkm5CXz.png"/>
   <br/>
-  <i><a href=https://www.youtube.com/watch?v=kKjm4ehYiMs>Source: Scaling up to your first 10 million users</a></i>
+  <i><a href="https://www.youtube.com/watch?v=kKjm4ehYiMs">Source: Scaling up to your first 10 million users</a></i>
 </p>
 
 ### Relational database management system (RDBMS)
@@ -831,9 +832,9 @@ There are many techniques to scale a relational database: **master-slave replica
 The master serves reads and writes, replicating writes to one or more slaves, which serve only reads.  Slaves can also replicate to additional slaves in a tree-like fashion.  If the master goes offline, the system can continue to operate in read-only mode until a slave is promoted to a master or a new master is provisioned.
 
 <p align="center">
-  <img src="images/C9ioGtn.png">
+  <img src="images/C9ioGtn.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 ##### Disadvantage(s): master-slave replication
@@ -846,9 +847,9 @@ The master serves reads and writes, replicating writes to one or more slaves, wh
 Both masters serve reads and writes and coordinate with each other on writes.  If either master goes down, the system can continue to operate with both reads and writes.
 
 <p align="center">
-  <img src="images/krAHLGg.png">
+  <img src="images/krAHLGg.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 ##### Disadvantage(s): master-master replication
@@ -874,9 +875,9 @@ Both masters serve reads and writes and coordinate with each other on writes.  I
 #### Federation
 
 <p align="center">
-  <img src="images/U3qV33e.png">
+  <img src="images/U3qV33e.png"/>
   <br/>
-  <i><a href=https://www.youtube.com/watch?v=kKjm4ehYiMs>Source: Scaling up to your first 10 million users</a></i>
+  <i><a href="https://www.youtube.com/watch?v=kKjm4ehYiMs">Source: Scaling up to your first 10 million users</a></i>
 </p>
 
 Federation (or functional partitioning) splits up databases by function.  For example, instead of a single, monolithic database, you could have three databases: **forums**, **users**, and **products**, resulting in less read and write traffic to each database and therefore less replication lag.  Smaller databases result in more data that can fit in memory, which in turn results in more cache hits due to improved cache locality.  With no single central master serializing writes you can write in parallel, increasing throughput.
@@ -895,9 +896,9 @@ Federation (or functional partitioning) splits up databases by function.  For ex
 #### Sharding
 
 <p align="center">
-  <img src="images/wU8x5Id.png">
+  <img src="images/wU8x5Id.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 Sharding distributes data across different databases such that each database can only manage a subset of the data.  Taking a users database as an example, as the number of users increases, more shards are added to the cluster.
@@ -1039,9 +1040,9 @@ Document stores provide high flexibility and are often used for working with occ
 #### Wide column store
 
 <p align="center">
-  <img src="images/n16iOGk.png">
+  <img src="images/n16iOGk.png"/>
   <br/>
-  <i><a href=http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html>Source: SQL & NoSQL, a brief history</a></i>
+  <i><a href="http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html">Source: SQL & NoSQL, a brief history</a></i>
 </p>
 
 > Abstraction: nested map `ColumnFamily<RowKey, Columns<ColKey, Value, Timestamp>>`
@@ -1062,9 +1063,9 @@ Wide column stores offer high availability and high scalability.  They are often
 #### Graph database
 
 <p align="center">
-  <img src="images/fNcl65g.png">
+  <img src="images/fNcl65g.png"/>
   <br/>
-  <i><a href=https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png>Source: Graph database</a></i>
+  <i><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png">Source: Graph database</a></i>
 </p>
 
 > Abstraction: graph
@@ -1090,9 +1091,9 @@ Graphs databases offer high performance for data models with complex relationshi
 ### SQL or NoSQL
 
 <p align="center">
-  <img src="images/wXGqG5f.png">
+  <img src="images/wXGqG5f.png"/>
   <br/>
-  <i><a href=https://www.infoq.com/articles/Transition-RDBMS-NoSQL/>Source: Transitioning from RDBMS to NoSQL</a></i>
+  <i><a href="https://www.infoq.com/articles/Transition-RDBMS-NoSQL/">Source: Transitioning from RDBMS to NoSQL</a></i>
 </p>
 
 Reasons for **SQL**:
@@ -1132,9 +1133,9 @@ Sample data well-suited for NoSQL:
 ## Cache
 
 <p align="center">
-  <img src="images/Q6z24La.png">
+  <img src="images/Q6z24La.png"/>
   <br/>
-  <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source: Scalable system design patterns</a></i>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Source: Scalable system design patterns</a></i>
 </p>
 
 Caching improves page load times and can reduce the load on your servers and databases.  In this model, the dispatcher will first lookup if the request has been made before and try to find the previous result to return, in order to save the actual execution.
@@ -1203,9 +1204,9 @@ Since you can only store a limited amount of data in cache, you'll need to deter
 #### Cache-aside
 
 <p align="center">
-  <img src="images/ONjORqk.png">
+  <img src="images/ONjORqk.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source: From cache to in-memory data grid</a></i>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">Source: From cache to in-memory data grid</a></i>
 </p>
 
 The application is responsible for reading and writing from storage.  The cache does not interact with storage directly.  The application does the following:
@@ -1239,9 +1240,9 @@ Subsequent reads of data added to cache are fast.  Cache-aside is also referred 
 #### Write-through
 
 <p align="center">
-  <img src="images/0vBc0hN.png">
+  <img src="images/0vBc0hN.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 The application uses the cache as the main data store, reading and writing data to it, while the cache is responsible for reading and writing to the database:
@@ -1274,9 +1275,9 @@ Write-through is a slow overall operation due to the write operation, but subseq
 #### Write-behind (write-back)
 
 <p align="center">
-  <img src="images/rgSrvjG.png">
+  <img src="images/rgSrvjG.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 In write-behind, the application does the following:
@@ -1292,9 +1293,9 @@ In write-behind, the application does the following:
 #### Refresh-ahead
 
 <p align="center">
-  <img src="images/kxtjqgE.png">
+  <img src="images/kxtjqgE.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source: From cache to in-memory data grid</a></i>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">Source: From cache to in-memory data grid</a></i>
 </p>
 
 You can configure the cache to automatically refresh any recently accessed cache entry prior to its expiration.
@@ -1324,9 +1325,9 @@ Refresh-ahead can result in reduced latency vs read-through if the cache can acc
 ## Asynchronism
 
 <p align="center">
-  <img src="images/54GYsSx.png">
+  <img src="images/54GYsSx.png"/>
   <br/>
-  <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source: Intro to architecting systems for scale</a></i>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">Source: Intro to architecting systems for scale</a></i>
 </p>
 
 Asynchronous workflows help reduce request times for expensive operations that would otherwise be performed in-line.  They can also help by doing time-consuming work in advance, such as periodic aggregation of data.
@@ -1370,9 +1371,9 @@ If queues start to grow significantly, the queue size can become larger than mem
 ## Communication
 
 <p align="center">
-  <img src="images/5KeocQs.jpg">
+  <img src="images/5KeocQs.jpg"/>
   <br/>
-  <i><a href=http://www.escotal.com/osilayer.html>Source: OSI 7 layer model</a></i>
+  <i><a href="http://www.escotal.com/osilayer.html">Source: OSI 7 layer model</a></i>
 </p>
 
 ### Hypertext transfer protocol (HTTP)
@@ -1402,9 +1403,9 @@ HTTP is an application layer protocol relying on lower-level protocols such as *
 ### Transmission control protocol (TCP)
 
 <p align="center">
-  <img src="images/JdAsdvG.jpg">
+  <img src="images/JdAsdvG.jpg"/>
   <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">Source: How to make a multiplayer game</a></i>
 </p>
 
 TCP is a connection-oriented protocol over an [IP network](https://en.wikipedia.org/wiki/Internet_Protocol).  Connection is established and terminated using a [handshake](https://en.wikipedia.org/wiki/Handshaking).  All packets sent are guaranteed to reach the destination in the original order and without corruption through:
@@ -1426,9 +1427,9 @@ Use TCP over UDP when:
 ### User datagram protocol (UDP)
 
 <p align="center">
-  <img src="images/yzDrJtA.jpg">
+  <img src="images/yzDrJtA.jpg"/>
   <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">Source: How to make a multiplayer game</a></i>
 </p>
 
 UDP is connectionless.  Datagrams (analogous to packets) are guaranteed only at the datagram level.  Datagrams might reach their destination out of order or not at all.  UDP does not support congestion control.  Without the guarantees that TCP support, UDP is generally more efficient.
@@ -1455,9 +1456,9 @@ Use UDP over TCP when:
 ### Remote procedure call (RPC)
 
 <p align="center">
-  <img src="images/iF4Mkb5.png">
+  <img src="images/iF4Mkb5.png"/>
   <br/>
-  <i><a href=http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview>Source: Crack the system design interview</a></i>
+  <i><a href="http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview">Source: Crack the system design interview</a></i>
 </p>
 
 In an RPC, a client causes a procedure to execute on a different address space, usually a remote server.  The procedure is coded as if it were a local procedure call, abstracting away the details of how to communicate with the server from the client program.  Remote calls are usually slower and less reliable than local calls so it is helpful to distinguish RPC calls from local calls.  Popular RPC frameworks include [Protobuf](https://developers.google.com/protocol-buffers/), [Thrift](https://thrift.apache.org/), and [Avro](https://avro.apache.org/docs/current/).
@@ -1543,7 +1544,7 @@ REST is focused on exposing data.  It minimizes the coupling between client/serv
 | Delete an item | **POST** /removeItem<br/>{<br/>"itemid": "456"<br/>} | **DELETE** /items/456 |
 
 <p align="center">
-  <i><a href=https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/>Source: Do you really know why you prefer REST over RPC</a></i>
+  <i><a href="https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/">Source: Do you really know why you prefer REST over RPC</a></i>
 </p>
 
 #### Source(s) and further reading: REST and RPC
@@ -1681,9 +1682,9 @@ Handy metrics based on numbers above:
 > Articles on how real world systems are designed.
 
 <p align="center">
-  <img src="images/TcUo2fw.png">
+  <img src="images/TcUo2fw.png"/>
   <br/>
-  <i><a href=https://www.infoq.com/presentations/Twitter-Timeline-Scalability>Source: Twitter timelines at scale</a></i>
+  <i><a href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">Source: Twitter timelines at scale</a></i>
 </p>
 
 **Don't focus on nitty gritty details for the following articles, instead:**
