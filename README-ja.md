@@ -3,7 +3,7 @@
 # システム設計入門
 
 <p align="center">
-  <img src="images/jj3A5N8.png">
+  <img src="images/jj3A5N8.png"/>
   <br/>
 </p>
 
@@ -44,7 +44,7 @@
 ## 暗記カード
 
 <p align="center">
-  <img src="images/zdCAkB3.png">
+  <img src="images/zdCAkB3.png"/>
   <br/>
 </p>
 
@@ -61,7 +61,7 @@
 コード技術面接用の問題を探している場合は[**こちら**](https://github.com/donnemartin/interactive-coding-challenges)
 
 <p align="center">
-  <img src="images/b4YtAEN.png">
+  <img src="images/b4YtAEN.png"/>
   <br/>
 </p>
 
@@ -91,7 +91,7 @@
 > それぞれのセクションはより学びを深めるような他の文献へのリンクが貼られています。
 
 <p align="center">
-  <img src="images/jrUBAF7.png">
+  <img src="images/jrUBAF7.png"/>
   <br/>
 </p>
 
@@ -407,7 +407,7 @@
 
 ## パフォーマンス vs スケーラビリティ
 
-リソースが追加されるのにつれて **パフォーマンス** が向上する場合そのサービスは **スケーラブル** であると言えるでしょう。一般的に、パフォーマンスを向上させるというのはすなわち計算処理を増やすことを意味しますが、データセットが増えた時などより大きな処理を捌けるようになることでもあります。<sup><a href=http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html>1</a></sup>
+リソースが追加されるのにつれて **パフォーマンス** が向上する場合そのサービスは **スケーラブル** であると言えるでしょう。一般的に、パフォーマンスを向上させるというのはすなわち計算処理を増やすことを意味しますが、データセットが増えた時などより大きな処理を捌けるようになることでもあります。<sup><a href="http://www.allthingsdistributed.com/2006/03/a_word_on_scalability.html">1</a></sup>
 
 パフォーマンスvsスケーラビリティをとらえる他の考え方:
 
@@ -436,9 +436,9 @@
 ### CAP 理論
 
 <p align="center">
-  <img src="images/bgLMI2u.png">
+  <img src="images/bgLMI2u.png"/>
   <br/>
-  <i><a href=http://robertgreiner.com/2014/08/cap-theorem-revisited>Source: CAP theorem revisited</a></i>
+  <i><a href="http://robertgreiner.com/2014/08/cap-theorem-revisited">Source: CAP theorem revisited</a></i>
 </p>
 
 分散型コンピュータシステムにおいては下の三つのうち二つまでしか同時に保証することはできない。:
@@ -530,9 +530,9 @@
 ## ドメインネームシステム
 
 <p align="center">
-  <img src="images/IOyLj4i.jpg">
+  <img src="images/IOyLj4i.jpg"/>
   <br/>
-  <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>Source: DNS security presentation</a></i>
+  <i><a href="http://www.slideshare.net/srikrupa5/dns-security-presentation-issa">Source: DNS security presentation</a></i>
 </p>
 
 ドメインネームシステム (DNS) は www.example.com などのドメインネームをIPアドレスへと翻訳します。
@@ -568,9 +568,9 @@ DNSは少数のオーソライズされたサーバーが上位に位置する�
 ## コンテンツデリバリーネットワーク(Content delivery network)
 
 <p align="center">
-  <img src="images/h9TAuGI.jpg">
+  <img src="images/h9TAuGI.jpg"/>
   <br/>
-  <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>Source: Why use a CDN</a></i>
+  <i><a href="https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/">Source: Why use a CDN</a></i>
 </p>
 
 コンテンツデリバリーネットワーク(CDN)は世界中に配置されたプロキシサーバーのネットワークがユーザーに一番地理的に近いサーバーからコンテンツを配信するシステムのことです。AmazonのCloudFrontなどは例外的にダイナミックなコンテンツも配信しますが、一般的に、HTML/CSS/JS、写真、そして動画などの静的ファイルがCDNを通じて配信されます。そのサイトのDNSがクライアントにどのサーバーと交信するかという情報を伝えます。
@@ -609,9 +609,9 @@ CDNを用いてコンテンツを配信することで以下の二つの理由�
 ## ロードバランサー
 
 <p align="center">
-  <img src="images/h81n9iK.png">
+  <img src="images/h81n9iK.png"/>
   <br/>
-  <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source: Scalable system design patterns</a></i>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Source: Scalable system design patterns</a></i>
 </p>
 
 ロードバランサーは入力されるクライアントのリクエストをアプリケーションサーバーやデータベースへと分散させる。どのケースでもロードバランサーはサーバー等計算リソースからのレスポンスを適切なクライアントに返す。ロードバランサーは以下のことに効果的です:
@@ -679,9 +679,9 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 ## リバースプロキシ(webサーバー)
 
 <p align="center">
-  <img src="images/n41Azff.png">
+  <img src="images/n41Azff.png"/>
   <br/>
-  <i><a href=https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg>Source: Wikipedia</a></i>
+  <i><a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg">Source: Wikipedia</a></i>
   <br/>
 </p>
 
@@ -722,9 +722,9 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 ## アプリケーション層
 
 <p align="center">
-  <img src="images/yB5SYwm.png">
+  <img src="images/yB5SYwm.png"/>
   <br/>
-  <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source: Intro to architecting systems for scale</a></i>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">Source: Intro to architecting systems for scale</a></i>
 </p>
 
 ウェブレイヤーをアプリケーション層 (プラットフォーム層とも言われる) と分離することでそれぞれの層を独立にスケール、設定することができるようになります。新しいAPIをアプリケーション層に追加する際に、不必要にウェブサーバーを追加する必要がなくなります。
@@ -735,7 +735,7 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 
 ### マイクロサービス
 
-独立してデプロイできる、小規模なモジュール様式である[マイクロサービス](https://en.wikipedia.org/wiki/Microservices)もこの議論に関係してくる技術でしょう。それぞれのサービスは独自のプロセスを処理し、明確で軽量なメカニズムで通信して、その目的とする機能を実現します。<sup><a href=https://smartbear.com/learn/api-design/what-are-microservices>1</a></sup>
+独立してデプロイできる、小規模なモジュール様式である[マイクロサービス](https://en.wikipedia.org/wiki/Microservices)もこの議論に関係してくる技術でしょう。それぞれのサービスは独自のプロセスを処理し、明確で軽量なメカニズムで通信して、その目的とする機能を実現します。<sup><a href="https://smartbear.com/learn/api-design/what-are-microservices">1</a></sup>
 
 例えばPinterestでは以下のようなマイクロサービスに分かれています。ユーザープロフィール、フォロワー、フィード、検索、写真アップロードなどです。
 
@@ -759,9 +759,9 @@ Layer 7 ロードバランサーは [アプリケーションレイヤー](#通�
 ## データベース
 
 <p align="center">
-  <img src="images/Xkm5CXz.png">
+  <img src="images/Xkm5CXz.png"/>
   <br/>
-  <i><a href=https://www.youtube.com/watch?v=w95murBkYmU>Source: Scaling up to your first 10 million users</a></i>
+  <i><a href="https://www.youtube.com/watch?v=w95murBkYmU">Source: Scaling up to your first 10 million users</a></i>
 </p>
 
 ### リレーショナルデータベースマネジメントシステム (RDBMS)
@@ -782,9 +782,9 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 マスターデータベースが読み取りと書き込みを処理し、書き込みを一つ以上のスレーブデータベースに複製します。スレーブデータベースは読み取りのみを処理します。スレーブデータベースは木構造のように追加のスレーブにデータを複製することもできます。マスターデータベースがオフラインになった場合には、いずれかのスレーブがマスターに昇格するか、新しいマスターデータベースが追加されるまでは読み取り専用モードで稼働します。
 
 <p align="center">
-  <img src="images/C9ioGtn.png">
+  <img src="images/C9ioGtn.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 ##### 欠点: マスタースレーブ レプリケーション
@@ -797,9 +797,9 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 いずれのマスターも読み取り書き込みの両方に対応する。書き込みに関してはそれぞれ協調する。いずれかのマスターが落ちても、システム全体としては読み書き両方に対応したまま運用できる。
 
 <p align="center">
-  <img src="images/krAHLGg.png">
+  <img src="images/krAHLGg.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 ##### 欠点: マスターマスター レプリケーション
@@ -825,9 +825,9 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 #### Federation
 
 <p align="center">
-  <img src="images/U3qV33e.png">
+  <img src="images/U3qV33e.png"/>
   <br/>
-  <i><a href=https://www.youtube.com/watch?v=w95murBkYmU>Source: Scaling up to your first 10 million users</a></i>
+  <i><a href="https://www.youtube.com/watch?v=w95murBkYmU">Source: Scaling up to your first 10 million users</a></i>
 </p>
 
 フェデレーション (もしくは機能分割化とも言う) はデータベースを機能ごとに分割する。例えば、モノリシックな単一データベースの代わりに、データベースを **フォーラム**、 **ユーザー**、 **プロダクト** のように三つにすることで、データベース一つあたりの書き込み・読み取りのトラフィックが減り、その結果レプリケーションのラグも短くなります。データベースが小さくなることで、メモリーに収まるデータが増えます。キャッシュの局所性が高まるため、キャッシュヒット率も上がります。単一の中央マスターで書き込みを直列化したりしないため、並列で書き込みを処理することができ、スループットの向上が期待できます。
@@ -846,9 +846,9 @@ SQLなどのリレーショナルデータベースはテーブルに整理さ�
 #### シャーディング
 
 <p align="center">
-  <img src="images/wU8x5Id.png">
+  <img src="images/wU8x5Id.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 シャーディングでは異なるデータベースにそれぞれがデータのサブセット断片のみを持つようにデータを分割します。ユーザーデータベースを例にとると、ユーザー数が増えるにつれてクラスターにはより多くの断片が加えられることになります。
@@ -990,9 +990,9 @@ NoSQL は **key-value store**、 **document-store**、 **wide column store**、 
 #### ワイドカラムストア
 
 <p align="center">
-  <img src="images/n16iOGk.png">
+  <img src="images/n16iOGk.png"/>
   <br/>
-  <i><a href=http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html>Source: SQL & NoSQL, a brief history</a></i>
+  <i><a href="http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html">Source: SQL & NoSQL, a brief history</a></i>
 </p>
 
 > 概要: ネストされたマップ `カラムファミリー<行キー、 カラム<ColKey、 Value、 Timestamp>>`
@@ -1013,9 +1013,9 @@ Googleは[Bigtable](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/cha
 #### グラフデータベース
 
 <p align="center">
-  <img src="images/fNcl65g.png">
+  <img src="images/fNcl65g.png"/>
   <br/>
-  <i><a href=https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png>Source: Graph database</a></i>
+  <i><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png">Source: Graph database</a></i>
 </p>
 
 > 概要: グラフ
@@ -1041,9 +1041,9 @@ Googleは[Bigtable](http://www.read.seas.harvard.edu/~kohler/class/cs239-w08/cha
 ### SQLか？NoSQLか？
 
 <p align="center">
-  <img src="images/wXGqG5f.png">
+  <img src="images/wXGqG5f.png"/>
   <br/>
-  <i><a href=https://www.infoq.com/articles/Transition-RDBMS-NoSQL/>Source: Transitioning from RDBMS to NoSQL</a></i>
+  <i><a href="https://www.infoq.com/articles/Transition-RDBMS-NoSQL/">Source: Transitioning from RDBMS to NoSQL</a></i>
 </p>
 
 **SQL** を選ぶ理由:
@@ -1083,9 +1083,9 @@ NoSQLに適するサンプルデータ:
 ## キャッシュ
 
 <p align="center">
-  <img src="images/Q6z24La.png">
+  <img src="images/Q6z24La.png"/>
   <br/>
-  <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>Source: Scalable system design patterns</a></i>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">Source: Scalable system design patterns</a></i>
 </p>
 
 キャッシュはページの読み込み時間を削減し、サーバーやデータベースへの負荷を低減することができます。このモデルでは、実際の処理を保存するために、ディスパッチャーがまず以前にリクエストが送信されたかどうかを確認し、直前の結果を受け取ります。
@@ -1154,9 +1154,9 @@ Redisはさらに以下のような機能を備えています:
 #### キャッシュアサイド
 
 <p align="center">
-  <img src="images/ONjORqk.png">
+  <img src="images/ONjORqk.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source: From cache to in-memory data grid</a></i>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">Source: From cache to in-memory data grid</a></i>
 </p>
 
 アプリケーションはストレージへの読み書きの処理をします。キャッシュはストレージとは直接やりとりをしません。アプリケーションは以下のことをします:
@@ -1190,9 +1190,9 @@ def get_user(self, user_id):
 #### ライトスルー
 
 <p align="center">
-  <img src="images/0vBc0hN.png">
+  <img src="images/0vBc0hN.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 アプリケーションはキャッシュをメインのデータストアとして使い、そこにデータの読み書きを行います。一方、キャッシュはデータベースへの読み書きを担当します。
@@ -1225,9 +1225,9 @@ def set_user(user_id, values):
 #### ライトビハインド (ライトバック)
 
 <p align="center">
-  <img src="images/rgSrvjG.png">
+  <img src="images/rgSrvjG.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>Source: Scalability, availability, stability, patterns</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">Source: Scalability, availability, stability, patterns</a></i>
 </p>
 
 ライトビハインドではアプリケーションは以下のことをします:
@@ -1243,9 +1243,9 @@ def set_user(user_id, values):
 #### リフレッシュアヘッド
 
 <p align="center">
-  <img src="images/kxtjqgE.png">
+  <img src="images/kxtjqgE.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>Source: From cache to in-memory data grid</a></i>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">Source: From cache to in-memory data grid</a></i>
 </p>
 
 期限切れよりも前に、直近でアクセスされた全てのキャッシュエントリを自動的に更新するように設定することができます。
@@ -1275,9 +1275,9 @@ def set_user(user_id, values):
 ## 非同期処理
 
 <p align="center">
-  <img src="images/54GYsSx.png">
+  <img src="images/54GYsSx.png"/>
   <br/>
-  <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>Source: Intro to architecting systems for scale</a></i>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">Source: Intro to architecting systems for scale</a></i>
 </p>
 
 非同期のワークフローはもし、連続的に行われるとリクエスト時間を圧迫してしまうような重い処理を別で処理する手法です。また、定期的にデータを集合させるなどの時間がかかるような処理を前もって処理しておくことにも役立ちます。
@@ -1321,9 +1321,9 @@ def set_user(user_id, values):
 ## 通信
 
 <p align="center">
-  <img src="images/5KeocQs.jpg">
+  <img src="images/5KeocQs.jpg"/>
   <br/>
-  <i><a href=http://www.escotal.com/osilayer.html>Source: OSI 7 layer model</a></i>
+  <i><a href="http://www.escotal.com/osilayer.html">Source: OSI 7 layer model</a></i>
 </p>
 
 ### Hypertext transfer protocol (HTTP)
@@ -1353,9 +1353,9 @@ HTTPは**TCP** や **UDP** などの低級プロトコルに依存している�
 ### 伝送制御プロトコル (TCP)
 
 <p align="center">
-  <img src="images/JdAsdvG.jpg">
+  <img src="images/JdAsdvG.jpg"/>
   <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">Source: How to make a multiplayer game</a></i>
 </p>
 
 TCPは[IP network](https://en.wikipedia.org/wiki/Internet_Protocol)の上で成り立つ接続プロトコルです。接続は[handshake](https://en.wikipedia.org/wiki/Handshaking)によって開始、解除されます。全ての送信されたパケットは欠損なしで送信先に送信された順番で到達するように以下の方法で保証されています:
@@ -1377,9 +1377,9 @@ TCPは高い依存性を要し、時間制約が厳しくないものに適し�
 ### ユーザデータグラムプロトコル (UDP)
 
 <p align="center">
-  <img src="images/yzDrJtA.jpg">
+  <img src="images/yzDrJtA.jpg"/>
   <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>Source: How to make a multiplayer game</a></i>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">Source: How to make a multiplayer game</a></i>
 </p>
 
 UDPはコネクションレスです。データグラム（パケットのようなもの）はデータグラムレベルでの保証しかされません。データグラムは順不同で受け取り先に到着したりそもそも着かなかったりします。UDPは輻輳制御をサポートしません。TCPにおいてはサポートされているこれらの保証がないため、UDPは一般的に、TCPよりも効率的です。
@@ -1406,9 +1406,9 @@ TCPよりもUDPを使うのは:
 ### 遠隔手続呼出 (RPC)
 
 <p align="center">
-  <img src="images/iF4Mkb5.png">
+  <img src="images/iF4Mkb5.png"/>
   <br/>
-  <i><a href=http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview>Source: Crack the system design interview</a></i>
+  <i><a href="http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview">Source: Crack the system design interview</a></i>
 </p>
 
 RPCではクライアントがリモートサーバーなどの異なるアドレス空間でプロシージャーが処理されるようにします。プロシージャーはローカルでのコールのように、クライアントからサーバーにどのように通信するかという詳細を省いた状態でコードが書かれます。リモートのコールは普通、ローカルのコールよりも遅く、信頼性に欠けるため、RPCコールをローカルコールと区別させておくことが好ましいでしょう。人気のRPCフレームワークは以下です。[Protobuf](https://developers.google.com/protocol-buffers/)、 [Thrift](https://thrift.apache.org/)、[Avro](https://avro.apache.org/docs/current/)
@@ -1494,7 +1494,7 @@ RESTはデータを公開することに焦点を当てています。クライ�
 | アイテム削除 | **POST** /removeItem<br/>{<br/>"itemid": "456"<br/>} | **DELETE** /items/456 |
 
 <p align="center">
-  <i><a href=https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/>Source: Do you really know why you prefer REST over RPC</a></i>
+  <i><a href="https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/">Source: Do you really know why you prefer REST over RPC</a></i>
 </p>
 
 #### その他の参考資料、ページ: REST と RPC
@@ -1629,9 +1629,9 @@ Notes
 > 世の中のシステムがどのように設計されているかについての記事
 
 <p align="center">
-  <img src="images/TcUo2fw.png">
+  <img src="images/TcUo2fw.png"/>
   <br/>
-  <i><a href=https://www.infoq.com/presentations/Twitter-Timeline-Scalability>Source: Twitter timelines at scale</a></i>
+  <i><a href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">Source: Twitter timelines at scale</a></i>
 </p>
 
 **以下の記事の重箱の隅をつつくような細かい詳細にこだわらないこと。むしろ**

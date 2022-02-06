@@ -3,7 +3,7 @@
 # 系統設計入門
 
 <p align="center">
-  <img src="images/jj3A5N8.png">
+  <img src="images/jj3A5N8.png"/>
   <br/>
 </p>
 
@@ -44,7 +44,7 @@
 ## 學習單字卡
 
 <p align="center">
-  <img src="images/zdCAkB3.png">
+  <img src="images/zdCAkB3.png"/>
   <br/>
 </p>
 
@@ -61,7 +61,7 @@
 你正在尋找資源來面對[**程式語言面試**](https://github.com/donnemartin/interactive-coding-challenges)嗎？
 
 <p align="center">
-  <img src="images/b4YtAEN.png">
+  <img src="images/b4YtAEN.png"/>
   <br/>
 </p>
 
@@ -91,7 +91,7 @@
 > 每一章節都包含更深入資源的連結。
 
 <p align="center">
-  <img src="images/jrUBAF7.png">
+  <img src="images/jrUBAF7.png"/>
   <br/>
 </p>
 
@@ -435,9 +435,9 @@
 ### CAP 理論
 
 <p align="center">
-  <img src="images/bgLMI2u.png">
+  <img src="images/bgLMI2u.png"/>
   <br/>
-  <i><a href=http://robertgreiner.com/2014/08/cap-theorem-revisited>來源：再看 CAP 理論</a></i>
+  <i><a href="http://robertgreiner.com/2014/08/cap-theorem-revisited">來源：再看 CAP 理論</a></i>
 </p>
 
 在一個分散式系統中，只能滿足以下三個項目的任兩項：
@@ -529,9 +529,9 @@ DNS 或是電子郵件系統使用的就是這種方式，最終一致性在高�
 ## 域名系統
 
 <p align="center">
-  <img src="images/IOyLj4i.jpg">
+  <img src="images/IOyLj4i.jpg"/>
   <br/>
-  <i><a href=http://www.slideshare.net/srikrupa5/dns-security-presentation-issa>資料來源：DNS 安全介紹</a></i>
+  <i><a href="http://www.slideshare.net/srikrupa5/dns-security-presentation-issa">資料來源：DNS 安全介紹</a></i>
 </p>
 
 DNS 是將域名轉換為 IP 地址的系統。
@@ -567,9 +567,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 內容傳遞網路(CDN)
 
 <p align="center">
-  <img src="images/h9TAuGI.jpg">
+  <img src="images/h9TAuGI.jpg"/>
   <br/>
-  <i><a href=https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/>來源：為什麼要使用 CDN</a></i>
+  <i><a href="https://www.creative-artworks.eu/why-use-a-content-delivery-network-cdn/">來源：為什麼要使用 CDN</a></i>
 </p>
 
 內容傳遞網路(CDN)是一種全球性的分散式代理伺服器，它透過靠近使用者的伺服器來提供檔案。通常 HTML/CSS/JS、圖片或影片等檔案會靜態檔案會透過 CDN 來提供，儘管 Amazon 的 CloudFront 也支援了動態內容的 CDN 服務。而 CDN 的 DNS 服務會告知使用者要連接哪一台伺服器。
@@ -608,9 +608,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 負載平衡器
 
 <p align="center">
-  <img src="images/h81n9iK.png">
+  <img src="images/h81n9iK.png"/>
   <br/>
-  <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>來源：可擴展的系統設計模式</a></i>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">來源：可擴展的系統設計模式</a></i>
 </p>
 
 負載平衡將使用者的請求分發到後端伺服器和資料庫，不管是哪種情況，負載平衡器會將回應返回給對應的使用者。而負載平衡器之所以有效在於以下幾點：
@@ -678,9 +678,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 反向代理(網頁伺服器)
 
 <p align="center">
-  <img src="images/n41Azff.png">
+  <img src="images/n41Azff.png"/>
   <br/>
-  <i><a href=https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg>來源：維基百科</a></i>
+  <i><a href="https://upload.wikimedia.org/wikipedia/commons/6/67/Reverse_proxy_h2g2bob.svg">來源：維基百科</a></i>
   <br/>
 </p>
 
@@ -721,9 +721,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 應用層
 
 <p align="center">
-  <img src="images/yB5SYwm.png">
+  <img src="images/yB5SYwm.png"/>
   <br/>
-  <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>資料來源：可縮放式系統架構介紹</a></i>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">資料來源：可縮放式系統架構介紹</a></i>
 </p>
 
 將 Web 服務層與應用層(也被稱為平台層)分離，如此一來這兩層就可以獨立縮放與設定，增加新的 API 服務只需要增加應用伺服器，而不需要增加額外的 Web 伺服器。
@@ -734,7 +734,7 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 
 ### 微服務
 
-相關的主題還有 [微服務](https://en.wikipedia.org/wiki/Microservices) ，指的是可以獨立運作、小型的模組化服務。每個服務會透過明確定義好的輕量級溝通機制，運作在一個獨立的流程中來共同實現一個目標。<sup><a href=https://smartbear.com/learn/api-design/what-are-microservices>1</a></sup>
+相關的主題還有 [微服務](https://en.wikipedia.org/wiki/Microservices) ，指的是可以獨立運作、小型的模組化服務。每個服務會透過明確定義好的輕量級溝通機制，運作在一個獨立的流程中來共同實現一個目標。<sup><a href="https://smartbear.com/learn/api-design/what-are-microservices">1</a></sup>
 
 舉例來說，Pinterest 可能有以下這些微服務：使用者資料、跟隨者、Feed、搜尋、照片上傳等等。
 
@@ -758,9 +758,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 ## 資料庫
 
 <p align="center">
-  <img src="images/Xkm5CXz.png">
+  <img src="images/Xkm5CXz.png"/>
   <br/>
-  <i><a href=https://www.youtube.com/watch?v=vg5onp8TU6Q>來源：擴展你的使用者數量到第一個一千萬量級</a></i>
+  <i><a href="https://www.youtube.com/watch?v=vg5onp8TU6Q">來源：擴展你的使用者數量到第一個一千萬量級</a></i>
 </p>
 
 ### 關連式資料庫管理系統(RDBMS)
@@ -781,9 +781,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 主資料庫負責讀和寫，並且將寫入的資料複寫至一或多個從屬資料庫中，從屬資料庫只負責讀取。而從屬資料庫可以再將寫入複製到更多以樹狀結構的其他資料庫中。如果主資料庫離線了，系統可以以只讀模式運行，直到某個從屬資料庫被提升為主資料庫，或有新的主資料庫出現。
 
 <p align="center">
-  <img src="images/C9ioGtn.png">
+  <img src="images/C9ioGtn.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>來源： 可擴展性、可用性、穩定性及其模式</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">來源： 可擴展性、可用性、穩定性及其模式</a></i>
 </p>
 
 ##### 主從複寫的缺點
@@ -796,9 +796,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 兩個主要的資料庫都負責讀取和寫入，並且兩者互相協調。如果其中一個主要資料庫離線，系統可以繼續運作。
 
 <p align="center">
-  <img src="images/krAHLGg.png">
+  <img src="images/krAHLGg.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>來源： 可擴展性、可用性、穩定性及其模式</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">來源： 可擴展性、可用性、穩定性及其模式</a></i>
 </p>
 
 ##### 主動模式的缺點
@@ -824,9 +824,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 #### 聯邦式資料庫
 
 <p align="center">
-  <img src="images/U3qV33e.png">
+  <img src="images/U3qV33e.png"/>
   <br/>
-  <i><a href=https://www.youtube.com/watch?v=vg5onp8TU6Q>來源：擴展你的使用者數量到第一個一千萬量級</a></i>
+  <i><a href="https://www.youtube.com/watch?v=vg5onp8TU6Q">來源：擴展你的使用者數量到第一個一千萬量級</a></i>
 </p>
 
 聯邦式資料庫(或是指功能式切分)是將資料庫按照對應的功能進行分割。例如：你可以三個資料庫，分別是：**論壇**、**使用者**和**產品**，而不僅僅是單一資料庫。這樣會減少每個資料庫寫入與讀取的流量，進而降低複製的延遲。較少的資料意味者更多適合放入記憶體中的資料，進而增加快取命中率。因為沒有循序寫入的中央式主資料庫，你可以並行寫入以增加吞吐量。
@@ -845,9 +845,9 @@ DNS 是階層式的架構，一部分的 DNS 伺服器位於頂層，當查詢�
 #### 分片
 
 <p align="center">
-  <img src="images/wU8x5Id.png">
+  <img src="images/wU8x5Id.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>來源： 可擴展性、可用性、穩定性及其模式</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">來源： 可擴展性、可用性、穩定性及其模式</a></i>
 </p>
 
 分片是指將資料分配在不同的資料庫上，使每個資料庫只管理整個資料的部分子集。以使用者資料庫為例，隨著使用者數量的增加，越來越多的分片會被加入到群集當中。
@@ -991,9 +991,9 @@ NoSQL 指的是 **鍵-值對的資料庫**、**文件類型資料庫**、**列�
 #### 列儲存型資料庫
 
 <p align="center">
-  <img src="images/n16iOGk.png">
+  <img src="images/n16iOGk.png"/>
   <br/>
-  <i><a href=http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html>來源：SQL 和 NoSQL，簡短的歷史介紹</a></i>
+  <i><a href="http://blog.grio.com/2015/11/sql-nosql-a-brief-history.html">來源：SQL 和 NoSQL，簡短的歷史介紹</a></i>
 </p>
 
 > 抽象模型： 巢狀的 Map `ColumnFamily<RowKey, Columns<ColKey, Value, Timestamp>>`
@@ -1014,9 +1014,9 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 #### 圖形資料庫
 
 <p align="center">
-  <img src="images/fNcl65g.png">
+  <img src="images/fNcl65g.png"/>
   <br/>
-  <i><a href=https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png>來源： 圖形化資料庫</a></i>
+  <i><a href="https://en.wikipedia.org/wiki/File:GraphDatabase_PropertyGraph.png">來源： 圖形化資料庫</a></i>
 </p>
 
 > 抽象模型：圖
@@ -1042,9 +1042,9 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 ### SQL 或 NoSQL
 
 <p align="center">
-  <img src="images/wXGqG5f.png">
+  <img src="images/wXGqG5f.png"/>
   <br/>
-  <i><a href=https://www.infoq.com/articles/Transition-RDBMS-NoSQL/>來源：從 RDBMS 轉換到 NoSQL</a></i>
+  <i><a href="https://www.infoq.com/articles/Transition-RDBMS-NoSQL/">來源：從 RDBMS 轉換到 NoSQL</a></i>
 </p>
 
 選擇 **SQL** 的原因：
@@ -1084,9 +1084,9 @@ Google 發表了第一個列儲存型資料庫 [Bigtable](http://www.read.seas.h
 ## 快取
 
 <p align="center">
-  <img src="images/Q6z24La.png">
+  <img src="images/Q6z24La.png"/>
   <br/>
-  <i><a href=http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html>來源：可擴展的系統設計模式</a></i>
+  <i><a href="http://horicky.blogspot.com/2010/10/scalable-system-design-patterns.html">來源：可擴展的系統設計模式</a></i>
 </p>
 
 快取可以提高頁面讀取速度，並且減少伺服器和資料庫的負載。在這種模型中，分派器會先檢查該次請求之前是否曾經被回應過，如果有的話，則直接拿之前的結果返回，避免真正執行處理的程序。
@@ -1155,9 +1155,9 @@ Redis 還有以下額外的功能：
 #### 快取模式
 
 <p align="center">
-  <img src="images/ONjORqk.png">
+  <img src="images/ONjORqk.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>資料來源：從快取到記憶體資料網格</a></i>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">資料來源：從快取到記憶體資料網格</a></i>
 </p>
 
 應用程式負責從儲存裝置中進行讀取及寫入。快取不直接和儲存裝置進行互動，應用程式會執行以下操作：
@@ -1191,9 +1191,9 @@ def get_user(self, user_id):
 #### 寫入模式
 
 <p align="center">
-  <img src="images/0vBc0hN.png">
+  <img src="images/0vBc0hN.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>資料來源：可獲展性、可用性、穩定性與模式</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">資料來源：可獲展性、可用性、穩定性與模式</a></i>
 </p>
 
 應用程式使用快取當作主要的資料儲存服務，將資料寫入/讀取到快取中，由快取服務負責向資料庫讀寫資料。
@@ -1226,9 +1226,9 @@ def set_user(user_id, values):
 #### 事後寫入(回寫)
 
 <p align="center">
-  <img src="images/rgSrvjG.png">
+  <img src="images/rgSrvjG.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/jboner/scalability-availability-stability-patterns/>資料來源：可獲展性、可用性、穩定性與模式</a></i>
+  <i><a href="http://www.slideshare.net/jboner/scalability-availability-stability-patterns/">資料來源：可獲展性、可用性、穩定性與模式</a></i>
 </p>
 
 在事後寫入的模式中，應用程式會執行以下步驟：
@@ -1244,9 +1244,9 @@ def set_user(user_id, values):
 #### 更新式快取
 
 <p align="center">
-  <img src="images/kxtjqgE.png">
+  <img src="images/kxtjqgE.png"/>
   <br/>
-  <i><a href=http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast>來源：從快取到記憶體資料網格技術</a></i>
+  <i><a href="http://www.slideshare.net/tmatyashovsky/from-cache-to-in-memory-data-grid-introduction-to-hazelcast">來源：從快取到記憶體資料網格技術</a></i>
 </p>
 
 你可以將快取設定為在到期之前就自動更新為最新存取的內容。
@@ -1276,9 +1276,9 @@ def set_user(user_id, values):
 ## 非同步機制
 
 <p align="center">
-  <img src="images/54GYsSx.png">
+  <img src="images/54GYsSx.png"/>
   <br/>
-  <i><a href=http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer>資料來源：可縮放性系統架構介紹</a></i>
+  <i><a href="http://lethain.com/introduction-to-architecting-systems-for-scale/#platform_layer">資料來源：可縮放性系統架構介紹</a></i>
 </p>
 
 非同步的工作流程有助於減少原本按照同步順序進行請求的時間，透過提前進行一些耗時操作來將降低整體請求時間，比如說：定期的彙整資料。
@@ -1322,9 +1322,9 @@ def set_user(user_id, values):
 ## 通訊
 
 <p align="center">
-  <img src="images/5KeocQs.jpg">
+  <img src="images/5KeocQs.jpg"/>
   <br/>
-  <i><a href=http://www.escotal.com/osilayer.html>來源：OSI 七層模型</a></i>
+  <i><a href="http://www.escotal.com/osilayer.html">來源：OSI 七層模型</a></i>
 </p>
 
 ### 超文件通訊協定 (HTTP)
@@ -1354,9 +1354,9 @@ HTTP 是依賴於較底層的協議(例如：**TCP** 和 **UDP**) 的應用層�
 ### 傳輸控制通訊協定(TCP)
 
 <p align="center">
-  <img src="images/JdAsdvG.jpg">
+  <img src="images/JdAsdvG.jpg"/>
   <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>來源：如何開發多人遊戲</a></i>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">來源：如何開發多人遊戲</a></i>
 </p>
 
 TCP 是透過 [IP 網路](https://en.wikipedia.org/wiki/Internet_Protocol) 面向連線的通訊協定。連線是透過 [握手](https://en.wikipedia.org/wiki/Handshaking) 的方式來建立和斷開連接，所有發送的資料在接收時會保證順序，另外透過以下的機制來保證資料不會損毀：
@@ -1378,9 +1378,9 @@ TCP 對於需要高可靠、低時間急迫性的應用來說很有用，比如�
 ### 使用者資料流通訊協定 (UDP)
 
 <p align="center">
-  <img src="images/yzDrJtA.jpg">
+  <img src="images/yzDrJtA.jpg"/>
   <br/>
-  <i><a href=http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/>資料來源：如何製作多人遊戲</a></i>
+  <i><a href="http://www.wildbunny.co.uk/blog/2012/10/09/how-to-make-a-multi-player-game-part-1/">資料來源：如何製作多人遊戲</a></i>
 </p>
 
 UDP 是非連線型的通訊協定。資料流(類似於封包)只在資料流級別進行確保。資料可能會不按照順序地到達目的地，也可能會遺失。UDP 並不支援阻塞處理，儘管 UDP 不像 TCP 一樣可靠，但通常效率更好。
@@ -1407,9 +1407,9 @@ UDP 的可靠性較低，但適合用在像是網路電話、視訊聊天、串�
 ### 遠端程式呼叫 (RPC)
 
 <p align="center">
-  <img src="images/iF4Mkb5.png">
+  <img src="images/iF4Mkb5.png"/>
   <br/>
-  <i><a href=http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview>資料來源：破解系統設計面試</a></i>
+  <i><a href="http://www.puncsky.com/blog/2016-02-13-crack-the-system-design-interview">資料來源：破解系統設計面試</a></i>
 </p>
 
 在一個 RPC 中，客戶端會去呼叫另外一個位置空間(通常是在遠端的伺服器)的方法。呼叫的方式就像是呼叫本地端的一個方法一樣，客戶端和伺服器溝通的具體過程被抽象化，而遠端呼叫相較於本地端呼叫來說一般較慢，而且可靠性較差，因此了解如何區別這兩種方法是必要的。熱門的 RPC 框架包含了 [Protobuf](https://developers.google.com/protocol-buffers/)、[Thrift](https://thrift.apache.org/) 和 [Avro](https://avro.apache.org/docs/current/)。
@@ -1495,7 +1495,7 @@ REST 關注於揭露資料，減少客戶端/伺服器之間耦合的程度，�
 | 刪除一個物品               | **POST** /removeItem{"itemid": "456"}                                 | **DELETE** /items/456                         |
 
 <p align="center">
-  <i><a href=https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/>資料來源：你真的知道為什麼你更喜歡 REST 而不是 RPC 嗎？</a></i>
+  <i><a href="https://apihandyman.io/do-you-really-know-why-you-prefer-rest-over-rpc/">資料來源：你真的知道為什麼你更喜歡 REST 而不是 RPC 嗎？</a></i>
 </p>
 
 #### 來源及延伸閱讀
@@ -1630,9 +1630,9 @@ Notes
 > 底下是關於真實世界的系統架構是如何設計的文章
 
 <p align="center">
-  <img src="images/TcUo2fw.png">
+  <img src="images/TcUo2fw.png"/>
   <br/>
-  <i><a href=https://www.infoq.com/presentations/Twitter-Timeline-Scalability>資料來源：可擴展式的 Twitter 時間軸設計</a></i>
+  <i><a href="https://www.infoq.com/presentations/Twitter-Timeline-Scalability">資料來源：可擴展式的 Twitter 時間軸設計</a></i>
 </p>
 
 **不要關注以下文章的細節，而是注意以下幾點：**
